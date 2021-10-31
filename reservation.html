@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <title>Seafood Haven</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1> <i class="logo__logo">
+                        <svg id="logo_svg" width="30.000000pt" height="30.000000pt" viewBox="0 0 512.000000 512.000000">
+                            <g fill="#add8e6">
+                                <path
+                                    d="m372.557 265.068c-10.734-12.959-33.198-38.21-64.134-63.16-39.89-32.171-102.587-70.521-174.741-70.521-5.324 0-10.574.323-15.738.931 15.185 10.962 28.464 24.497 39.244 40.196 18.752 27.307 28.663 59.312 28.663 92.554 0 33.243-9.912 65.248-28.664 92.556-10.78 15.698-24.059 29.232-39.244 40.194 5.164.608 10.413.931 15.738.931 72.154 0 134.852-38.35 174.741-70.521 30.936-24.95 53.4-50.2 64.135-63.16z" />
+                                <path
+                                    d="m242.849 125.926c28.755 12.863 57.367 30.743 85.041 53.142 15.639 12.658 29.147 25.268 40.267 36.522l21.949-29.644-4.513-8.383c-34.768-64.6-86.393-97.585-123.578-113.881-40.312-17.666-72.49-20.056-73.84-20.149l-9.977-.688-29.516 59.032c31.199 1.965 62.805 10.02 94.167 24.049z" />
+                                <path
+                                    d="m0 265.068c0 53.84 31.998 100.342 77.972 121.505 47.508-21.786 77.879-68.815 77.879-121.505s-30.372-99.72-77.88-121.505c-45.974 21.164-77.971 67.665-77.971 121.505zm59.341-11.941h32.479v30h-32.479z" />
+                                <path
+                                    d="m483.264 265.068c0-42.629 17.535-78.049 17.699-78.377l11.037-21.78h-24.417c-26.15 0-52.383 16.22-77.969 48.209-7.654 9.57-14.046 19.082-18.897 26.91 8.104 9.438 19.615 25.038 19.615 25.038s-11.512 15.6-19.615 25.038c4.851 7.828 11.243 17.34 18.897 26.91 25.586 31.99 51.818 48.21 77.969 48.21h24.417l-11.037-21.78c-.177-.349-17.699-35.426-17.699-78.378z" />
+                                <path
+                                    d="m327.89 351.068c-27.674 22.399-56.286 40.279-85.041 53.142-12.372 5.535-24.783 10.119-37.191 13.79l55.712 51.155 9.388-5.035c2.781-1.492 68.522-37.238 104.669-98.882l5.512-9.399-25.571-28.8c-8.236 7.759-17.415 15.884-27.478 24.029z" />
+                        </svg>
+                    </i>Seafood
+                    <span>Haven</span>
+                </h1>
+            </div>
+            <ul class="list">
+                <li class="listitem__Home">
+                    <a href="/#">Home</a>
+                </li>
+                <li class="listitem__Menu">
+                    <a href="/menu.html">Menu</a>
+                </li>
+                <li class="listitem__About">
+                    <a href="/about.html">About</a>
+                </li>
+                <li class="listitem__OnlineOrdering">
+                    <a href="/onlineOrdering.html">Online Ordering</a>
+                </li>
+                <li class="listitem__Reservation">
+                    <a href="/reservation.html">Reservation</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="reservation">
+        <h2 class="reservation_title">
+            Make a reservation!
+        </h2>
+        <form action="reservationComplete.html" class="reservation_form">
+            <ul>
+                <li class="name">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="" placeholder="John Doe">
+                </li>
+                <li class="tablesize">
+                    <label for="tablesize">Number of Guests :</label>
+                    <input type="text" name="numberOfGuests" id="" placeholder="0 ~ 25">
+                </li>
+                <li class="email">
+                    <label for="email">E-mail :</label>
+                    <input type="email" name="" id="" placeholder="johndoe@gmail.com">
+                </li>
+
+                <li class="phone">
+                    <label for="phone">Phone Number :</label>
+                    <input type="text" name="phone" id="" placeholder="555-555-5555">
+                </li>
+                <li class="date">
+                    <label for="date">Date of reservation :</label>
+                    <input type="date" value="2020-11-11">
+                </li>
+                <li class="time">
+                    <label for="time">Time of reservation :</label>
+                    <select name="Time" id="">
+                        <option value="5:30pm">5:30 PM</option>
+                        <option value="6:00pm">6:00 PM</option>
+                        <option value="5:00pm">5:00 PM</option>
+                        <option value="6:30pm">6:30 PM</option>
+                        <option value="7:00pm">7:00 PM</option>
+                        <option value="7:30pm">7:30 PM</option>
+                        <option value="8:00pm">8:00 PM</option>
+                        <option value="8:30pm">8:30 PM</option>
+                        <option value="9:00pm">9:00 PM</option>
+                        <option value="9:30pm">9:30 PM</option>
+                        <option value="10:00pm">10:00 PM</option>
+                        <option value="10:30pm">10:30 PM</option>
+                    </select>
+                </li>
+                <li class="notes">
+                    <label for="additional_notes">
+                        Additional Notes :
+                    </label>
+                    <textarea name="notes" id="" cols="30" rows="10"
+                        placeholder="Peanut Allergy/ Wheelchair accessible/ Have appetizer ready/ etc"></textarea>
+
+                </li>
+            </ul>
+            <div class='side'>
+                <p>
+                    Please complete the form to submit a reservation and we will try our best to accommodate our guests.
+                    Please keep in mind that seating at our restaurant is in high demand so any guests that fail to
+                    arrive
+                    15 minutes after the time of reservation will forfeit their table. If some guests have arrived but
+                    not
+                    the entire party, the orders must be given at the latest, at 30 minutes after the time of
+                    reservation or
+                    the table must be forfeit. Thank you for your reservation and we hope to be serving you soon!
+                </p>
+                <button action="submit">Set the Date!</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <p> ©Copyright PerfectVision 2020</p>
+        <p>Website made with Tender Love and Care</p>
+    </footer>
+
+</body>
+
+</html>
